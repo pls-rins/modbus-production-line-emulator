@@ -20,7 +20,7 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           fetch-depth: 0
       - name: Create review app
-        uses: pls-rins/modbus-production-line-emulator@latest
+        uses: pls-rins/modbus-production-line-emulator@main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           CLEVER_SECRET: ${{ secrets.CLEVER_SECRET }}
